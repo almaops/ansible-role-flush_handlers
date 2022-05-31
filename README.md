@@ -1,5 +1,7 @@
-aboveops.flush_handlers
+almaops.flush_handlers
 =========
+
+[![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 Flush ansible handlers
 
@@ -12,19 +14,18 @@ This role flushes ansible handlers. You can just insert it between other roles, 
 Example
 -------
 
-    - role: aboveops.flush_handlers
+    - role: almaops.flush_handlers
 
 Install
 -------
 
 This role can be installed from [Ansible Galaxy](https://galaxy.ansible.com/):
 
-`ansible-galaxy install aboveops.flush_handlers`
+`ansible-galaxy install almaops.flush_handlers`
 
 License
 -------
-
-MIT
+[MIT](./LICENSE)
 
 Author Information
 ------------------
